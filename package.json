@@ -1,0 +1,27 @@
+{
+  "name": "exercism",
+  "version": "1.0.0",
+  "description": "exercism.io solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashashakun/exercism.git"
+  },
+  "keywords": [
+    "exercism",
+    "tasks",
+    "solving"
+  ],
+  "author": "alx.safari@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sashashakun/exercism/issues"
+  },
+  "homepage": "https://github.com/sashashakun/exercism#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
