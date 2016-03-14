@@ -55,3 +55,11 @@ exec('jasmine-node ./javascript/rna-transcrption/rna-transcrption.spec.js', (err
     console.log(`exec error: ${error}`);
   }
 })
+
+exec('jasmine-node ./javascript/rna-transcrption/word-count.spec.js', (error, stdout, stderr) => {
+  console.log(`stdout: ${stdout}`);
+  console.log(`stderr: ${stderr}`);
+  if (error !== null) {
+    console.log(`exec error: ${error}`);
+  }
+})
