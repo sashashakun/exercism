@@ -15,7 +15,7 @@ module.exports = class Pangram {
                             's', 't', 'u', 'v',
                             'w', 'x', 'y', 'z'
                           ]
-                          
+
           let len = alphabet.length;
           let res = true;
 
